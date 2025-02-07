@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_46eac29bc139d2c360d4713a507e4c50 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_46eac29bc139d2c360d4713a507e4c50" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_46eac29bc139d2c360d4713a507e4c50 = L.map(
+                "map_46eac29bc139d2c360d4713a507e4c50",
+                {
+                    center: [25.2048, 55.2708],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b2209e6274549a3bb0ecbf798fe21e3a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_b2209e6274549a3bb0ecbf798fe21e3a.addTo(map_46eac29bc139d2c360d4713a507e4c50);
+        
+    
+            var marker_375bb7c683ee65b312d4446ef9f27788 = L.marker(
+                [25.1972, 55.2744],
+                {
+}
+            ).addTo(map_46eac29bc139d2c360d4713a507e4c50);
+        
+    
+        var popup_c62c780fe2e660b529b25ef07732ae1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8944bbb8982ce39f12c5bb60e08dac16 = $(`<div id="html_8944bbb8982ce39f12c5bb60e08dac16" style="width: 100.0%; height: 100.0%;">Burj Khalifa</div>`)[0];
+                popup_c62c780fe2e660b529b25ef07732ae1d.setContent(html_8944bbb8982ce39f12c5bb60e08dac16);
+            
+        
+
+        marker_375bb7c683ee65b312d4446ef9f27788.bindPopup(popup_c62c780fe2e660b529b25ef07732ae1d)
+        ;
+
+        
+    
+    
+            var marker_dbf39ac730655e9accdccfc5e357e8b5 = L.marker(
+                [25.1986, 55.2794],
+                {
+}
+            ).addTo(map_46eac29bc139d2c360d4713a507e4c50);
+        
+    
+        var popup_a1ea87661878bd018ed9a935142f34b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1fbb66725976024c00c6c6a209c4d97d = $(`<div id="html_1fbb66725976024c00c6c6a209c4d97d" style="width: 100.0%; height: 100.0%;">Dubai Mall</div>`)[0];
+                popup_a1ea87661878bd018ed9a935142f34b1.setContent(html_1fbb66725976024c00c6c6a209c4d97d);
+            
+        
+
+        marker_dbf39ac730655e9accdccfc5e357e8b5.bindPopup(popup_a1ea87661878bd018ed9a935142f34b1)
+        ;
+
+        
+    
+    
+            var marker_7d1be3d01beb7aee08986c36bc2af1c5 = L.marker(
+                [25.1957, 55.2752],
+                {
+}
+            ).addTo(map_46eac29bc139d2c360d4713a507e4c50);
+        
+    
+        var popup_06c8b490358e52cfd592831cfe49c6bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8daaf7af837b20175e0bb12922d8f581 = $(`<div id="html_8daaf7af837b20175e0bb12922d8f581" style="width: 100.0%; height: 100.0%;">Dubai Fountain</div>`)[0];
+                popup_06c8b490358e52cfd592831cfe49c6bf.setContent(html_8daaf7af837b20175e0bb12922d8f581);
+            
+        
+
+        marker_7d1be3d01beb7aee08986c36bc2af1c5.bindPopup(popup_06c8b490358e52cfd592831cfe49c6bf)
+        ;
+
+        
+    
+    
+            var marker_f1d5aaf3574a878572dd69ec7f06ff50 = L.marker(
+                [25.2459, 55.2788],
+                {
+}
+            ).addTo(map_46eac29bc139d2c360d4713a507e4c50);
+        
+    
+        var popup_4c269e3269aa728b51752361a93104b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eaf2340f6ded1bfe02378577db84320b = $(`<div id="html_eaf2340f6ded1bfe02378577db84320b" style="width: 100.0%; height: 100.0%;">Jumeirah Beach</div>`)[0];
+                popup_4c269e3269aa728b51752361a93104b8.setContent(html_eaf2340f6ded1bfe02378577db84320b);
+            
+        
+
+        marker_f1d5aaf3574a878572dd69ec7f06ff50.bindPopup(popup_4c269e3269aa728b51752361a93104b8)
+        ;
+
+        
+    
+    
+            var marker_80efa2cdcd37efd4b72c20d2d7973370 = L.marker(
+                [25.1375, 55.1935],
+                {
+}
+            ).addTo(map_46eac29bc139d2c360d4713a507e4c50);
+        
+    
+        var popup_eaeec1318bfe7d2fea90f15533261be2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_adb68df1958bee59f0690501ee46d46f = $(`<div id="html_adb68df1958bee59f0690501ee46d46f" style="width: 100.0%; height: 100.0%;">Souk Madinat Jumeirah</div>`)[0];
+                popup_eaeec1318bfe7d2fea90f15533261be2.setContent(html_adb68df1958bee59f0690501ee46d46f);
+            
+        
+
+        marker_80efa2cdcd37efd4b72c20d2d7973370.bindPopup(popup_eaeec1318bfe7d2fea90f15533261be2)
+        ;
+
+        
+    
+    
+            var marker_b7bafe7caf286a86e15967d8af8ac977 = L.marker(
+                [25.2654, 55.3047],
+                {
+}
+            ).addTo(map_46eac29bc139d2c360d4713a507e4c50);
+        
+    
+        var popup_e78d7ca1bbd319f780efc359d0e7477d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c7d813886632bfbae6c1c53d4694fb4 = $(`<div id="html_8c7d813886632bfbae6c1c53d4694fb4" style="width: 100.0%; height: 100.0%;">Dubai Creek</div>`)[0];
+                popup_e78d7ca1bbd319f780efc359d0e7477d.setContent(html_8c7d813886632bfbae6c1c53d4694fb4);
+            
+        
+
+        marker_b7bafe7caf286a86e15967d8af8ac977.bindPopup(popup_e78d7ca1bbd319f780efc359d0e7477d)
+        ;
+
+        
+    
+    
+            var marker_472c096010d2a2e5e5abe0b9932f6054 = L.marker(
+                [25.2639, 55.2974],
+                {
+}
+            ).addTo(map_46eac29bc139d2c360d4713a507e4c50);
+        
+    
+        var popup_9d0a9c6d0d925fe1bed7bdfafab9959a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7eeb2e9ac1ea6ec24a39c63b8a06704 = $(`<div id="html_d7eeb2e9ac1ea6ec24a39c63b8a06704" style="width: 100.0%; height: 100.0%;">Al Fahidi Historical Neighborhood</div>`)[0];
+                popup_9d0a9c6d0d925fe1bed7bdfafab9959a.setContent(html_d7eeb2e9ac1ea6ec24a39c63b8a06704);
+            
+        
+
+        marker_472c096010d2a2e5e5abe0b9932f6054.bindPopup(popup_9d0a9c6d0d925fe1bed7bdfafab9959a)
+        ;
+
+        
+    
+    
+            var marker_4d2c13ae1058453c009bd024c8b206e9 = L.marker(
+                [25.2679, 55.3026],
+                {
+}
+            ).addTo(map_46eac29bc139d2c360d4713a507e4c50);
+        
+    
+        var popup_08edb25360e5c693c0fc8c9f6471eb59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_abc9790ba92d9b39705321745e788ffe = $(`<div id="html_abc9790ba92d9b39705321745e788ffe" style="width: 100.0%; height: 100.0%;">Gold Souk</div>`)[0];
+                popup_08edb25360e5c693c0fc8c9f6471eb59.setContent(html_abc9790ba92d9b39705321745e788ffe);
+            
+        
+
+        marker_4d2c13ae1058453c009bd024c8b206e9.bindPopup(popup_08edb25360e5c693c0fc8c9f6471eb59)
+        ;
+
+        
+    
+    
+            var marker_433d357129d0596bb15f589f13805533 = L.marker(
+                [25.2687, 55.3014],
+                {
+}
+            ).addTo(map_46eac29bc139d2c360d4713a507e4c50);
+        
+    
+        var popup_fc5d87cca49eaa0d7329d37be94da0ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16f6f6aed94278ad89ae1ff7ab6c1fda = $(`<div id="html_16f6f6aed94278ad89ae1ff7ab6c1fda" style="width: 100.0%; height: 100.0%;">Spice Souk</div>`)[0];
+                popup_fc5d87cca49eaa0d7329d37be94da0ac.setContent(html_16f6f6aed94278ad89ae1ff7ab6c1fda);
+            
+        
+
+        marker_433d357129d0596bb15f589f13805533.bindPopup(popup_fc5d87cca49eaa0d7329d37be94da0ac)
+        ;
+
+        
+    
+    
+            var marker_4327dd48ad40b4e9ab61b50af13861b1 = L.marker(
+                [25.1207, 55.1353],
+                {
+}
+            ).addTo(map_46eac29bc139d2c360d4713a507e4c50);
+        
+    
+        var popup_b0ba435227efe793c2b0e9cdff1c7be0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ec2bae0d776d81a7adf660d2cf419de = $(`<div id="html_5ec2bae0d776d81a7adf660d2cf419de" style="width: 100.0%; height: 100.0%;">Palm Jumeirah</div>`)[0];
+                popup_b0ba435227efe793c2b0e9cdff1c7be0.setContent(html_5ec2bae0d776d81a7adf660d2cf419de);
+            
+        
+
+        marker_4327dd48ad40b4e9ab61b50af13861b1.bindPopup(popup_b0ba435227efe793c2b0e9cdff1c7be0)
+        ;
+
+        
+    
+</script>
+</html>
